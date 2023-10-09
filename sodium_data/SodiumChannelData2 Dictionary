@@ -1,0 +1,68 @@
+SodiumChnnelData2.csv Dictionary
+
+
+Channel - the name of the channel protein or the amino acid mutation to the original channel protein that characterizes the experimental group
+
+Effects_Sact - the effect of the mutation to the channel on slow activation
+
+Act_V0.5_mV - the V1/2 in milivolts of the activation curve of the sodium channel
+
+Act_V0.5_sem - the standard error of the V1/2 calculated during the activation of the sodium channel
+
+Act_V0.5_n - the number of individuals that V1/2 was calculated from during the activation of the sodium channel
+
+Act_k - the slope factor of the activation curve
+
+Act_k_sem - the standard error of the slope factor of the activation curve of the sodium channel
+
+Act_k_n - the number of individuals that the slope factor was calculated from during the activation of the sodium channel
+
+SSFI_V0.5_mV - the calculated V1/2 in milivolts of the steady-state fast inactivation curve of the sodium channel
+
+SSFI_V0.5_sem - the standard error of the V1/2 calculated from the steady-state fast inactivation curve of the sodium channel
+
+SSFI_V0.5_n - the number of individuals that V1/2 was calculated from during the steady-state fast inactivation of the sodium channel
+
+SSFI_k - the slope factor of the steady-state fast inactivation curve
+
+SSFI_k_sem - the standard error of the slope factor calculated from the steady-state fast inactivation curve of the sodium channel
+
+SSFI_k_n - the number of individuals that the slope factor was calculated from in the steady-state fast inactivation curve of the sodium channel
+
+Slow_dev_t1_ms - the time constant calculated in miliseconds that expresses the time it takes for the channel to enter the steady-state slow inactivation state
+
+Slow_dev_t1_sem - the standard error of the time constant calculted during the slow development of the sodium channel
+
+Slow_dev_t1_n - the number of individuals that the time constant was calculated from during the slow development of the sodium channel
+
+Slow_dev_rc - the measured residual charge during the slow development of the channel
+
+Slow_dev_rc_sem - the standard error of the residual charge measured during the slow development of the sodium channel
+
+Slow_rec_t1_ms - the first time constant calculated in miliseconds that expresses the first component of the time it takes for the channel to recover from slow inactivation back to the closed state
+
+Slow_rec_t1_sem - the standard error of the first time constant calculated during the slow recovery of the sodium channel
+
+Slow_rec_t1_n - the number of individuals that the first time constant was calculated from during the slow recovery of the sodium channel
+
+Slow_rec_t2_ms - the second time constant calculated in miliseconds that expresses the second component of the time it takes for the channel to recover from slow inactivation back to the closed state
+
+Slow_rec_t2_sem - the standard error of the second time constant calculated during the slow recovery of the sodium channel
+
+Slow_rec_t2_n -  the number of individuals that the second time constant was calculated from during the slow recovery of the sodium channel
+
+SSSI_V0.5_mV - the calculated V1/2 in milivolts of the steady-state slow inactivation curve of the sodium channel
+
+SSSI_V0.5_sem - the standard error of the V1/2 calculated from the steady-state slow inactivation curve of the sodium channel 
+
+SSI_V0.5_n - the number of individuals that V1/2 was calculated from in the steady-state slow inactivation curve of the sodium channel
+
+SSSI_k - the slope factor of the steady-state slow inactivation curve of the sodium channel 
+
+SSSI_k_sem - the standard error of the slope factor of the steady-state slow inactivation curve of the sodium channel 
+
+SSSI_k_n - the number of individuals that the slope factor was calculated from in the steady-state slow inactivation curve of the sodium channel
+
+SSSI_rc - the measured residual charge during the steady-state slow inactivation of the sodium channel
+
+SSSI_rc_sem - the standard error of the residual charge measured during the steady-state slow inactivation of the sodium channel
