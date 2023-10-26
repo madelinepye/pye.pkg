@@ -15,7 +15,13 @@
 #'@export
 
 splot_sodium <- function(data, x_data, y_data, color, title, x_title, y_title){
-  scatterplot <- ggplot(data, aes(x = {{x_data}}, y = {{y_data}}, color = {{color}})) + geom_point()
+  if (is.character(title) == FALSE){
+    print("Title must be a string value.")
+  } else if (is.character(x_title) == FALSE){
+    print("X axis label must be a string value.")
+  } else if (is.character(y_title) == FALSE){
+    print("Y axis label must be a string value.")
+  } else {scatterplot <- ggplot(data, aes(x = {{x_data}}, y = {{y_data}}, color = {{color}})) + geom_point()
   scatterplot1 <- scatterplot + labs(title = title, x = x_title, y = y_title)
-  return(scatterplot1)
+  return(scatterplot1)}
 }

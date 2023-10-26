@@ -15,7 +15,14 @@
 #'@export
 
 bargraph_plot <- function(data, x_data, y_data, color, title, x_title, y_title){
-  bar_plot <- ggplot(data, mapping = aes (x = {{x_data}}, y = {{y_data}}, fill = {{color}})) + geom_col()
-  bar_plot1 <- bar_plot + labs(title = title, x = x_title, y = y_title)
-  return(bar_plot1)
+  if (is.character(title) == FALSE){
+    print("Title must be a string value.")
+  } else if (is.character(x_title) == FALSE){
+    print("X axis label must be a string value.")
+  } else if (is.character(y_title) == FALSE){
+    print("Y axis label must be a string value.")
+  } else {
+    bar_plot <- ggplot(data, mapping = aes (x = {{x_data}}, y = {{y_data}}, fill = {{color}})) + geom_col()
+    bar_plot1 <- bar_plot + labs(title = title, x = x_title, y = y_title)
+    return(bar_plot1)}
 }

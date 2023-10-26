@@ -10,7 +10,10 @@
 #'@export 
 
 selecting_data <- function(data, columns){
-  clean <- data %>% 
+  if (is.character(columns) == FALSE){
+    print("Column argument must be a variable that represents string values or a single string value.")
+  } else {
+    clean <- data %>% 
     select(all_of({{columns}}))
-  return(clean)
+  return(clean)}
 }

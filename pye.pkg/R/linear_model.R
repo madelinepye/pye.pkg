@@ -12,7 +12,7 @@
 
 
 lm_plot <- function(data, x_var, y_var, color){
-  lm_plot <- ggplot(data, aes(x = {{x_var}}, y = {{y_var}}, color = {{color}})) + geom_point()
-  lm_plot1 <- lm_plot + geom_smooth(method = "lm", color = "purple", linewidth = 0.5, fill = "pink")
-  return(lm_plot1)
+      lm_plot <- ggplot(data, aes(x = {{x_var}}, y = {{y_var}}, color = {{color}})) + geom_point()
+      lm_plot1 <- lm_plot + geom_smooth(method = "lm", color = "purple", linewidth = 0.5, fill = "pink")
+      return(lm_plot1)
 }

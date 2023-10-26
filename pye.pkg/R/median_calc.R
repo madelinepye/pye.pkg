@@ -10,7 +10,7 @@
 #'@export
 
 median_calc <- function(data, column){
-  number <- data %>% 
+    number <- data %>% 
     summarize(median({{column}}))
-  return(number)
+    return(number)
 }
